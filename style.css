@@ -1,23 +1,68 @@
 
 
-        body {
-            background-color: #b86513;
-        }
+      
 
-        h1 {
-            color: #2f59ad;
-           
-        }
-        h2 {
-            color: #2fad4a;
-           
-        }
-        p {
-            color: #503b3bcc;
+        .header {
+            margin: 20px 0px 0 -20px;
+            
+            margin-top: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 0;
+            line-height: 45px;
+            font-family: sans-serif;
+          }
         
-        }
-
-        button {
-            color: #fff;
-            background-color: #025157;
-        }
+          li{
+              display: inline;
+          }
+          .header > *{
+              display: inline-block;
+              font-size: 16px;
+              vertical-align: middle;
+              height: 100%;
+              line-height: 45px;
+          }
+          .logo{
+              width: 15%;
+              text-align: center;
+              
+          }
+          .navbar{
+            width: 70%;
+            text-align: center;
+            color: #025157;
+           
+          }
+          .action{
+            width: 15%;
+            text-align: right;
+            font-size: 14px;
+           
+          }
+          .menu-item {
+            display: inline;
+            margin-right: 25px;
+            margin-left: 25px;
+          }
+          .action > * {
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+          .action a{
+            color: #67b54b;
+          }
+          .action button {
+            color: rgb(194, 10, 10);
+            background-color: #49f00c;
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 0;
+            border-radius: 5px;
+          }
+          .navbar li{
+            margin-left: 30px;
+          }
+          
