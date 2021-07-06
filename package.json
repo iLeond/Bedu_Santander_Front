@@ -1,5 +1,5 @@
 {
-  "name": "Leond",
+  "name": "matcha",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/iLeond/Bedu_Santander_Front/issues"
   },
-  "homepage": "https://github.com/iLeond/Bedu_Santander_Front#readme"
+  "homepage": "https://github.com/iLeond/Bedu_Santander_Front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
 }
